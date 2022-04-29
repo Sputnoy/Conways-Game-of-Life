@@ -167,6 +167,50 @@ void gosper_glider_gun_rotate90(int x,int y){
 	block(x-2,y+33);
 }
 
+void gosper_glider_gun_rotate90_Up(int x,int y){
+	block(x,y);
+
+	space[0][y-9][x] = 1;
+	space[0][y-9][x+1] = 1;
+	space[0][y-9][x+2] = 1;
+
+	space[0][y-10][x-1] = 1;
+	space[0][y-10][x+3] = 1;
+
+	space[0][y-11][x-2] = 1;
+	space[0][y-11][x+4] = 1;
+	space[0][y-12][x-2] = 1;
+	space[0][y-12][x+4] = 1;
+
+	space[0][y-13][x+1] = 1;
+
+	space[0][y-14][x-1] = 1;
+	space[0][y-14][x+3] = 1;
+
+	space[0][y-15][x] = 1;
+	space[0][y-15][x+1] = 1;
+	space[0][y-15][x+2] = 1;
+
+	space[0][y-16][x+1] = 1;
+
+	space[0][y-19][x-2] = 1;
+	space[0][y-19][x-1] = 1;
+	space[0][y-19][x] = 1;
+	space[0][y-20][x-2] = 1;
+	space[0][y-20][x-1] = 1;
+	space[0][y-20][x] = 1;
+
+	space[0][y-21][x-3] = 1;
+	space[0][y-21][x+1] = 1;
+
+	space[0][y-23][x-4] = 1;
+	space[0][y-23][x-3] = 1;
+	space[0][y-23][x+1] = 1;
+	space[0][y-23][x+2] = 1;
+
+	block(x-2,y-34);
+}
+
 void infinite(int x, int y){
 	space[0][y][x] = 1;
 

@@ -20,13 +20,14 @@ int main(){
 	//block(20,10);
 	//beacon(5,5);
 	//blinker(10,5);
-	gosper_glider_gun(1,5);
+	//gosper_glider_gun(1,5);
 	/*gosper_glider_gun(40,5);
 	gosper_glider_gun(79,5);
 	gosper_glider_gun(118,5);
 	gosper_glider_gun(157,5);*/
 
-	gosper_glider_gun_rotate90(50,50);
+	gosper_glider_gun_rotate90_Up(50,50);
+	gosper_glider_gun_rotate90(100,50);
 
 	//gosper_glider_gun_flipY(1,50);
 	/*gosper_glider_gun_flipY(40,100);
@@ -49,7 +50,7 @@ int main(){
 	refresh();
 	getch();
 
-	run_life(500);
+	run_life(200);
 	mvaddstr(0,0,"Done");
 
 	getch();
