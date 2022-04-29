@@ -35,6 +35,17 @@ void glider_flip(int x,int y){
 	space[0][y][x-2] = 1;
 }
 
+void eater(int x, int y){
+	space[0][y][x] = 1;
+	space[0][y-1][x] = 1;
+	space[0][y-1][x+1] = 1;
+
+	space[0][y][x+2] = 1;
+	space[0][y+1][x+2] = 1;
+	space[0][y+2][x+2] = 1;
+	space[0][y+2][x+3] = 1;
+}
+
 void gosper_glider_gun(int x,int y){
 	block(x-1,y);
 

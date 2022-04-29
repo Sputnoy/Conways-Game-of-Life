@@ -26,8 +26,10 @@ int main(){
 	gosper_glider_gun(118,5);
 	gosper_glider_gun(157,5);*/
 
-	gosper_glider_gun_rotate90_Up(50,50);
-	gosper_glider_gun_rotate90(100,50);
+	//gosper_glider_gun_rotate90_Up(50,50);
+	//gosper_glider_gun_rotate90(100,50);
+
+	eater(50,50);
 
 	//gosper_glider_gun_flipY(1,50);
 	/*gosper_glider_gun_flipY(40,100);
