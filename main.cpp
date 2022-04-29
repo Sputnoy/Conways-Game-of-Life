@@ -17,10 +17,11 @@ int main(){
 
 	clear_space();
 
-	gosper_glider_gun(1,5);
+	gosper_glider_gun(1,15);
+	//gosper_glider_gun(60,5);
 
-	gosper_glider_gun_rotate90_Up(19,80);
-	//gosper_glider_gun_rotate90(100,50);
+	gosper_glider_gun_rotate90_Up(31,70);
+	gosper_glider_gun_rotate90_Up(50,110);
 
 	print_space();
 	refresh();
